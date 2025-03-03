@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OutPlan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+185261e45465e2db472de6e1644c70340bd7e252")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e61064bb8f3f15f85b7ef3032c4f25e9c2d02b61")]
 [assembly: System.Reflection.AssemblyProductAttribute("OutPlan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OutPlan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
