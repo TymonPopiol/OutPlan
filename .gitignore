@@ -1,3 +1,15 @@
+obj
+bin
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+nuget/lib/net40
+/packages
+/*.user
+PublishProfiles
 
-obj/
-bin/
+# Visual Studio 2015 cache/options directory
+.vs/
