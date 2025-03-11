@@ -1,11 +1,21 @@
 using Microsoft.EntityFrameworkCore;
 
-public class AppDbContext : DbContext
+namespace OutPlan.Models
 {
-    public DbSet<Person> People { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public class AppDbContext : DbContext
     {
-        optionsBuilder.UseSqlite("Data Source=test.db");
+        public DbSet<Person> People { get; set; }
+
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlite("Data Source=test.db");
+            }
+        }
     }
 }
