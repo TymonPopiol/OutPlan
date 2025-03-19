@@ -14,7 +14,7 @@ namespace OutPlan.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite("Data Source=test.db");
+                optionsBuilder.UseSqlite("Data Source=outplan.db");
             }
         }
     }
